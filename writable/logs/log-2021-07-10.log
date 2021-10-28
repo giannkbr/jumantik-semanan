@@ -1,0 +1,4 @@
+CRITICAL - 2021-07-10 23:29:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /opt/lampp/htdocs/jss-fix/system/bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 /opt/lampp/htdocs/jss-fix/spark(53): require('...')
+#2 {main}

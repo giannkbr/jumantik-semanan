@@ -1,0 +1,288 @@
+CRITICAL - 2021-03-31 09:29:16 --> Undefined array key "alamat"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Pribadi.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 227)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Pribadi->formedit()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pribadi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:23 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 11:27:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:15 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:15 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:15 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:15 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:15 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:15 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:16 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:16 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:16 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:24 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:25 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:29:26 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:46:23 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:46:23 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}
+CRITICAL - 2021-03-31 14:46:23 --> Undefined array key "konfigurasi_id"
+#0 /home/hipppo/Videos/dewas-fix/app/Controllers/Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/home/hipppo/Vi...', 218)
+#1 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 /home/hipppo/Videos/dewas-fix/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hipppo/Videos/dewas-fix/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 /home/hipppo/Videos/dewas-fix/system/Commands/Server/rewrite.php(45): require_once('/home/hipppo/Vi...')
+#6 {main}

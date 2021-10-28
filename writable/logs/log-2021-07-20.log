@@ -1,0 +1,95 @@
+CRITICAL - 2021-07-20 16:02:34 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 25, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->getdata()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:00 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:02 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:02 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:02 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:03 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:03 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:04 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:04 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 178, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->simpan()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:03:58 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 25, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->getdata()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:04:04 --> Undefined property: App\Controllers\Rumahtangga::$rumahtangga
+#0 C:\Users\NormanA\Downloads\jss-fix\app\Controllers\Rumahtangga.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Norman...', 25, Array)
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->getdata()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#3 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#6 {main}
+CRITICAL - 2021-07-20 16:19:59 --> Class 'App\Models\Modeltempatkerja' not found
+#0 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(913): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\NormanA\Downloads\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\NormanA\Downloads\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\NormanA\Downloads\jss-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\Norman...')
+#5 {main}

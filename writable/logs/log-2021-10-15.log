@@ -1,0 +1,12 @@
+CRITICAL - 2021-10-15 08:18:28 --> Unable to connect to the database.
+#0 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Marsha\Aku\jss-fix\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`s...', Array, false)
+#2 D:\Marsha\Aku\jss-fix\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Marsha\Aku\jss-fix\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\Marsha\Aku\jss-fix\app\Controllers\Home.php(9): CodeIgniter\BaseModel->first()
+#5 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Home->index()
+#6 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#10 {main}

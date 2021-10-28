@@ -1,0 +1,351 @@
+CRITICAL - 2021-07-23 06:40:04 --> Table 'jss.rumahtangga' doesn't exist
+#0 D:\Marsha\Aku\jss-fix\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marsha\Aku\jss-fix\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marsha\Aku\jss-fix\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marsha\Aku\jss-fix\app\Models\Modelrumahtangga.php(74): CodeIgniter\Model->__call('get', Array)
+#6 D:\Marsha\Aku\jss-fix\app\Controllers\Rumahtangga.php(25): App\Models\Modelrumahtangga->list()
+#7 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->getdata()
+#8 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#9 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#12 {main}
+CRITICAL - 2021-07-23 06:40:13 --> Table 'jss.tempatkerja' doesn't exist
+#0 D:\Marsha\Aku\jss-fix\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marsha\Aku\jss-fix\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marsha\Aku\jss-fix\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marsha\Aku\jss-fix\app\Models\Modeltempatkerja.php(74): CodeIgniter\Model->__call('get', Array)
+#6 D:\Marsha\Aku\jss-fix\app\Controllers\Tempatkerja.php(25): App\Models\Modeltempatkerja->list()
+#7 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Tempatkerja->getdata()
+#8 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkerja))
+#9 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#12 {main}
+CRITICAL - 2021-07-23 06:59:07 --> {0} filter must have a matching alias defined.
+#0 D:\Marsha\Aku\jss-fix\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('validasilogin')
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('validasilogin', 'before')
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#5 {main}
+CRITICAL - 2021-07-23 07:13:25 --> Table 'jss.tempatkerja' doesn't exist
+#0 D:\Marsha\Aku\jss-fix\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marsha\Aku\jss-fix\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marsha\Aku\jss-fix\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marsha\Aku\jss-fix\app\Models\Modeltempatkerja.php(74): CodeIgniter\Model->__call('get', Array)
+#6 D:\Marsha\Aku\jss-fix\app\Controllers\Tempatkerja.php(25): App\Models\Modeltempatkerja->list()
+#7 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Tempatkerja->getdata()
+#8 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkerja))
+#9 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#12 {main}
+CRITICAL - 2021-07-23 07:15:04 --> Table 'jss.rumahtangga' doesn't exist
+#0 D:\Marsha\Aku\jss-fix\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Marsha\Aku\jss-fix\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Marsha\Aku\jss-fix\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Marsha\Aku\jss-fix\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Marsha\Aku\jss-fix\app\Models\Modelrumahtangga.php(74): CodeIgniter\Model->__call('get', Array)
+#6 D:\Marsha\Aku\jss-fix\app\Controllers\Rumahtangga.php(25): App\Models\Modelrumahtangga->list()
+#7 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Rumahtangga->getdata()
+#8 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rumahtangga))
+#9 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#12 {main}
+CRITICAL - 2021-07-23 07:48:04 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:48:07 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:48:15 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:48:16 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:48:16 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:48:16 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:48:16 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:50:34 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:50:41 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:50:43 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:50:43 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:50:43 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:50:43 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:50:43 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:24 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:31 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:31 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:31 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:32 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:32 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:32 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:41 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:41 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:41 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:42 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:52:42 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:53:03 --> Undefined property: App\Controllers\Master::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 77, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:54:22 --> Undefined index: master_id
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Marsha\\Aku\\j...', 79, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:54:55 --> Undefined index: master_id
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Master.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Marsha\\Aku\\j...', 79, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Master->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:57:54 --> Undefined property: App\Controllers\Umum::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Umum.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 193, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Umum->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Umum))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:58:05 --> Undefined property: App\Controllers\Umum::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Umum.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 193, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Umum->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Umum))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 07:58:06 --> Undefined property: App\Controllers\Umum::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Umum.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 193, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Umum->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Umum))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 08:00:11 --> Undefined property: App\Controllers\Umum::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Umum.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 193, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Umum->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Umum))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 08:00:24 --> Undefined property: App\Controllers\Umum::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Umum.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 193, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Umum->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Umum))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 08:00:26 --> Undefined property: App\Controllers\Umum::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Umum.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 193, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Umum->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Umum))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}
+CRITICAL - 2021-07-23 08:00:37 --> Undefined property: App\Controllers\Umum::$kelas
+#0 D:\Marsha\Aku\jss-fix\app\Controllers\Umum.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Marsha\\Aku\\j...', 193, Array)
+#1 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(940): App\Controllers\Umum->formedit()
+#2 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Umum))
+#3 D:\Marsha\Aku\jss-fix\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Marsha\Aku\jss-fix\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Marsha\Aku\jss-fix\system\Commands\Server\rewrite.php(45): require_once('D:\\Marsha\\Aku\\j...')
+#6 {main}

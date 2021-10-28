@@ -1,0 +1,1450 @@
+CRITICAL - 2021-04-23 00:47:05 --> The framework needs the following extension(s) installed and loaded: GD.
+#0 C:\xampp\htdocs\jssasu\system\Images\Handlers\GDHandler.php(36): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+#1 C:\xampp\htdocs\jssasu\system\Config\Services.php(356): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+#2 C:\xampp\htdocs\jssasu\system\Config\BaseService.php(100): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+#3 C:\xampp\htdocs\jssasu\system\Config\Services.php(349): CodeIgniter\Config\BaseService::getSharedInstance('image', NULL, NULL)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Konfigurasi.php(622): CodeIgniter\Config\Services::image()
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Konfigurasi->douploaduser()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 01:13:21 --> Call to undefined method App\Controllers\Warga::orderBy()
+#0 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->gettetangga()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-23 01:13:24 --> Invalid file: auth/tetangga/tambah.php
+#0 C:\xampp\htdocs\jssasu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/tetangga/t...')
+#1 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/tetangga/t...', Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(40): view('auth/tetangga/t...', Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:14:21 --> Call to undefined method App\Controllers\Warga::orderBy()
+#0 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->gettetangga()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-23 01:14:41 --> Invalid file: auth/tetangga/tambah.php
+#0 C:\xampp\htdocs\jssasu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/tetangga/t...')
+#1 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/tetangga/t...', Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(40): view('auth/tetangga/t...', Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:14:49 --> Call to undefined method App\Controllers\Warga::orderBy()
+#0 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->gettetangga()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-23 01:14:59 --> Call to undefined method App\Controllers\Warga::orderBy()
+#0 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->gettetangga()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-23 01:15:57 --> Call to undefined method App\Controllers\Warga::orderBy()
+#0 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->gettetangga()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-23 01:16:35 --> Invalid file: auth/tetangga/tambah.php
+#0 C:\xampp\htdocs\jssasu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/tetangga/t...')
+#1 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/tetangga/t...', Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(40): view('auth/tetangga/t...', Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:19:32 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:19:37 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:21:03 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:21:16 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:21:18 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:22:05 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:22:50 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:23:33 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 01:23:33 --> There is no data to insert.
+#0 C:\xampp\htdocs\jssasu\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\jssasu\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(82): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->simpantetangga()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 05:27:52 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 75 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(75): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:28:56 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 75 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(75): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:29:09 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 75 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(75): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:29:09 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 75 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(75): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:29:12 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 75 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(75): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:29:41 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:30:38 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:30:56 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:31:30 --> Undefined variable $request
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelwarga.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 05:31:39 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:31:52 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:32:26 --> Cannot declare class App\Models\Modelsiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-23 05:32:35 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:33:03 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:33:09 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:35:43 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelwarga.php(55): App\Models\Modelwarga->_get_datatables_query()
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(191): App\Models\Modelwarga->get_datatables()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->getdatawarga()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 05:36:37 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelwarga.php(55): App\Models\Modelwarga->_get_datatables_query()
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(191): App\Models\Modelwarga->get_datatables()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->getdatawarga()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 05:37:12 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelwarga.php(55): App\Models\Modelwarga->_get_datatables_query()
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(191): App\Models\Modelwarga->get_datatables()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->getdatawarga()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 05:38:04 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:38:19 --> Too few arguments to function App\Models\Modelwarga::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 76 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 05:41:15 --> Undefined variable $request
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelwarga.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(76): App\Models\Modelwarga->__construct()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 05:45:48 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:45:50 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:45:51 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:45:53 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:09 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:43 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:43 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:44 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:55 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:55 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:56 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:56 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:56 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:57 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:57 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:57 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:46:59 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:47:45 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:47:46 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:47:46 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 05:47:47 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/tamb...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(231): view('auth/warga/tamb...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formtambahwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 06:20:56 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formedit()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:21:07 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formedit()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:21:08 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formedit()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:21:09 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formedit()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:22:22 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:22:24 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:22:24 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:22:25 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:22:26 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:22:27 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:06 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:08 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:09 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:37 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:38 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:39 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:39 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:40 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:40 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:40 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:41 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:42 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:44 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:44 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:45 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:45 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:24:46 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:21 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:23 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:23 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:24 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:24 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:39 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:39 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:40 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:40 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:41 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:41 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:41 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:42 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:42 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:42 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:43 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:43 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:26:44 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:32 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:33 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:33 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:33 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:34 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:34 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:34 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:35 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:27:35 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:28:06 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:20 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:21 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:21 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:22 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:44 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:49 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:50 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:50 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:50 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:30:50 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 06:59:33 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:00:02 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:01:15 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:31 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:33 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:33 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:34 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:34 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:34 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:34 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:35 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:35 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:03:35 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:05:20 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:05:22 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:05:22 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:05:22 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:05:23 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:06:40 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:06:42 --> Call to undefined method App\Models\Modeltetangga::list
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(314): CodeIgniter\Model->__call('list', Array)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 07:07:18 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\warga\edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/edit', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(323): view('auth/warga/edit', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->formeditwarga()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 16:50:21 --> unlink(img/konfigurasi/logo/Neutral-512.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/konf...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Konfigurasi.php(185): unlink('img/konfigurasi...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Konfigurasi->douploadlogo()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 21:00:39 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelpendidikan.php(44): App\Models\Modelpendidikan->_get_datatables_query()
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(40): App\Models\Modelpendidikan->get_datatables()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->getdatapendidikan()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 21:04:08 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelpendidikan.php(44): App\Models\Modelpendidikan->_get_datatables_query()
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(40): App\Models\Modelpendidikan->get_datatables()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->getdatapendidikan()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 21:08:21 --> Too few arguments to function App\Models\Modelpendidikan::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 78 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(78): App\Models\Modelpendidikan->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 21:08:40 --> Too few arguments to function App\Models\Modelpendidikan::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 78 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(78): App\Models\Modelpendidikan->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 21:08:58 --> Call to a member function orderBy() on null
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelpendidikan.php(45): App\Models\Modelpendidikan->_get_datatables_query()
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(40): App\Models\Modelpendidikan->get_datatables()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->getdatapendidikan()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 21:09:50 --> Call to undefined method App\Models\Modelpendidikan::_get_datatables_query
+#0 C:\xampp\htdocs\jssasu\app\Models\Modelpendidikan.php(45): CodeIgniter\Model->__call('_get_datatables...', Array)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(40): App\Models\Modelpendidikan->get_datatables()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->getdatapendidikan()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-23 21:10:24 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(40): App\Models\Modelpendidikan->get_datatables()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->getdatapendidikan()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 21:12:13 --> Too few arguments to function App\Models\Modelpendidikan::__construct(), 0 passed in C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php on line 78 and exactly 1 expected
+#0 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(78): App\Models\Modelpendidikan->__construct()
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-23 21:12:46 --> syntax error, unexpected token ")", expecting variable
+#0 C:\xampp\htdocs\jssasu\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\jssasu\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 C:\xampp\htdocs\jssasu\app\Controllers\BaseController.php(78): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-23 21:27:44 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\pendidikan\tambah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/pendidikan...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(84): view('auth/pendidikan...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->formtambah()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 21:27:46 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\pendidikan\tambah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/pendidikan...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(84): view('auth/pendidikan...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->formtambah()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 21:27:46 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\pendidikan\tambah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/pendidikan...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(84): view('auth/pendidikan...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->formtambah()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 21:27:47 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\pendidikan\tambah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/pendidikan...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(84): view('auth/pendidikan...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->formtambah()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 21:27:47 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\pendidikan\tambah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/pendidikan...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(84): view('auth/pendidikan...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->formtambah()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 21:28:35 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\pendidikan\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/pendidikan...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(84): view('auth/pendidikan...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->formtambah()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-23 21:29:20 --> Undefined variable $kelas
+#0 C:\xampp\htdocs\jssasu\app\Views\auth\pendidikan\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/pendidikan...', Array, true)
+#4 C:\xampp\htdocs\jssasu\app\Controllers\Pendidikan.php(84): view('auth/pendidikan...', Array)
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Pendidikan->formtambah()
+#6 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendidikan))
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

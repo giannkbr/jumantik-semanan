@@ -1,0 +1,188 @@
+CRITICAL - 2021-04-27 14:03:14 --> Invalid file: front/gallery/detail.php
+#0 C:\xampp\htdocs\jssasu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/gallery/d...')
+#1 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('front/gallery/d...', Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Home.php(67): view('front/gallery/d...', Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Home->detail_gallery('46')
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-27 14:08:55 --> unlink(img/staf/Group 82.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 344)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(344): unlink('img/staf/Group ...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->doupload()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:09:15 --> unlink(img/staf/Group 82.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 344)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(344): unlink('img/staf/Group ...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->doupload()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:09:56 --> unlink(img/staf/Group 82.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 284)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(284): unlink('img/staf/Group ...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->hapusall()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:15:19 --> unlink(img/staf/0_GTA_V_Trevor.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 344)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(344): unlink('img/staf/0_GTA_...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->doupload()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:15:23 --> unlink(img/staf/0_GTA_V_Trevor.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(262): unlink('img/staf/0_GTA_...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->hapus()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:16:06 --> unlink(img/staf/1105791.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(262): unlink('img/staf/110579...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->hapus()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:16:10 --> unlink(img/staf/1105791.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 262)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(262): unlink('img/staf/110579...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->hapus()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:18:39 --> unlink(img/staf/Neutral-512.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/staf...', 'C:\\xampp\\htdocs...', 284)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(284): unlink('img/staf/Neutra...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->hapusall()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:18:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jssasu\app\Controllers\Staf.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 282)
+#1 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Staf->hapusall()
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staf))
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-27 14:21:33 --> View themes, no current section.
+#0 C:\xampp\htdocs\jssasu\app\Views\layout\menu.php(106): CodeIgniter\View\View->endSection('menu')
+#1 C:\xampp\htdocs\jssasu\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jssasu\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jssasu\system\View\View.php(236): CodeIgniter\View\View->render('layout/menu', Array, true)
+#4 C:\xampp\htdocs\jssasu\system\View\View.php(236): CodeIgniter\View\View->render('layout/script', Array, true)
+#5 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('auth/warga/inde...', Array, true)
+#6 C:\xampp\htdocs\jssasu\app\Controllers\Warga.php(168): view('auth/warga/inde...', Array)
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Warga->index()
+#8 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#9 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-27 14:22:09 --> unlink(img/foto/baruno-spec-ind-768x642.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'C:\\xampp\\htdocs...', 150)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Gallery.php(150): unlink('img/foto/baruno...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Gallery->hapus()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:22:13 --> unlink(img/foto/baruno-spec-ind-768x642.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/foto...', 'C:\\xampp\\htdocs...', 150)
+#1 C:\xampp\htdocs\jssasu\app\Controllers\Gallery.php(150): unlink('img/foto/baruno...')
+#2 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Gallery->hapus()
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gallery))
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-27 14:30:14 --> Table 'jss.guru' doesn't exist
+#0 C:\xampp\htdocs\jssasu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(`g...')
+#1 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`g...')
+#2 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`g...')
+#3 C:\xampp\htdocs\jssasu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`g...', Array, false)
+#4 C:\xampp\htdocs\jssasu\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jssasu\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\jssasu\app\Controllers\Home.php(10): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-27 14:34:51 --> Invalid file: front/gallery/detail.php
+#0 C:\xampp\htdocs\jssasu\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/gallery/d...')
+#1 C:\xampp\htdocs\jssasu\system\Common.php(1217): CodeIgniter\View\View->render('front/gallery/d...', Array, true)
+#2 C:\xampp\htdocs\jssasu\app\Controllers\Home.php(61): view('front/gallery/d...', Array)
+#3 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Home->detail_gallery('44')
+#4 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-27 14:42:36 --> Table 'jss.guru' doesn't exist
+#0 C:\xampp\htdocs\jssasu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(`g...')
+#1 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`g...')
+#2 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`g...')
+#3 C:\xampp\htdocs\jssasu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`g...', Array, false)
+#4 C:\xampp\htdocs\jssasu\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jssasu\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\jssasu\app\Controllers\Dashboard.php(13): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-27 14:43:53 --> Table 'jss.guru' doesn't exist
+#0 C:\xampp\htdocs\jssasu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(`g...')
+#1 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`g...')
+#2 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`g...')
+#3 C:\xampp\htdocs\jssasu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`g...', Array, false)
+#4 C:\xampp\htdocs\jssasu\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jssasu\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\jssasu\app\Controllers\Dashboard.php(13): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-27 14:44:03 --> Table 'jss.guru' doesn't exist
+#0 C:\xampp\htdocs\jssasu\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(`g...')
+#1 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`g...')
+#2 C:\xampp\htdocs\jssasu\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`g...')
+#3 C:\xampp\htdocs\jssasu\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`g...', Array, false)
+#4 C:\xampp\htdocs\jssasu\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jssasu\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\jssasu\app\Controllers\Dashboard.php(13): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\jssasu\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\jssasu\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\jssasu\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}

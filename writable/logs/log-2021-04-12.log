@@ -1,0 +1,24 @@
+CRITICAL - 2021-04-12 05:53:53 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\dewas-fix\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\dewas-fix\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\dewas-fix\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\dewas-fix\spark(53): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-04-12 05:56:03 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\dewas-fix\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\dewas-fix\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\dewas-fix\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\dewas-fix\spark(53): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-04-12 06:02:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\dewas-fix\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\dewas-fix\spark(53): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-04-12 11:08:04 --> Undefined array key "konfigurasi_id"
+#0 C:\xampp\htdocs\dewas-fix\app\Controllers\Konfigurasi.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 218)
+#1 C:\xampp\htdocs\dewas-fix\system\CodeIgniter.php(936): App\Controllers\Konfigurasi->formuploadicon()
+#2 C:\xampp\htdocs\dewas-fix\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konfigurasi))
+#3 C:\xampp\htdocs\dewas-fix\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\dewas-fix\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\dewas-fix\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
